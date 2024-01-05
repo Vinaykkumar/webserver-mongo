@@ -1,0 +1,10 @@
+server:
+  port: 9092
+
+product:
+  profile:
+    host:
+      uri: 'http://server-container:8081'
+spring:
+  main:
+    allow-bean-definition-overriding=true:
